@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivna Solutions</title>
+    <link rel="stylesheet" href="Ivna_Solutions.CSS">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section id="banner">
+        <h1 class="logo">Ivna Solutions</h1>
+        <div class="banner-text">
+            <h1>Prosper Together</h1>
+            <p>Consulting in the Palm of your hands</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>About Us</a>
+                <a href="#"><span></span>Services</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#">Consultant Care</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Global Locations</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="sidebtn">
+        <img src="https://assets.stickpng.com/images/588a6507d06f6719692a2d15.png" id="menu">
+    </div>
+
+
+    <section id="feature">
+        <div class="title-text">
+            <p>Features</p>
+            <h1>Why Choose Us</h1>
+        </div>
+        <div class="feature-box">
+            <div class="feature">
+                <h1>Experienced Staff</h1>
+                <div class="feature-des">
+                    <div class="feature-icon">
+                        <i class="fa fa-shield"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>With 24/7 on demand customer service respresentitives there is no need to worry about any
+                            problem that our helpful staff can't fix.</p>
+                    </div>
+                </div>
+
+                <h1>Book a Consultant</h1>
+                <div class="feature-des">
+                    <div class="feature-icon">
+                        <i class="fa fa-check"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>With over 100 consultants to choose from picking the right Consulant is like finding a shoe
+                            that fits</p>
+                    </div>
+                </div>
+
+                <h1>Affordable Cost</h1>
+                <div class="feature-des">
+                    <div class="feature-icon">
+                        <i class="fa fa-usd"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>Pricing that is Tailored for you</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="feature-img">
+                <img src="https://kantata.marketing/wp-content/uploads/2021/08/consulting-firm-project-management.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!--Service Section-->
+    <section id="service">
+        <div class="title-text">
+            <p>Services</p>
+            <h1>Wide Assortment</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img
+                    src="https://www.performancesuretybonds.com/blog/wp-content/uploads/2018/11/warranty-bond-construction-completed.jpg">
+                <div class="overlay"></div>
+                <div class="service-des">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="single-service">
+                <img
+                    src="https://www.decorilla.com/online-decorating/wp-content/uploads/2022/03/modern-office-design-for-a-large-conference-room.jpeg">
+                <div class="overlay"></div>
+                <div class="service-des"></div>
+
+            </div>
+            <div class="single-service">
+                <img
+                    src="https://www.investopedia.com/thmb/8SQN-3rnDst2CYRX68LOI4NlgaE=/2309x1299/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-943067460-28883b8136b24330932cd4e2855c2508.jpg">
+                <div class="overlay"></div>
+                <div class="service-des"></div>
+
+            </div>
+            <div class="single-service">
+                <img src="https://makeup4stars.info/wp-content/uploads/2017/10/consulting-firms-Australia-1170x550.jpg">
+                <div class="overlay"></div>
+                <div class="service-des"></div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        var sidebtn = document.getElementById("sidebtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        sideNav.style.right = "-250px";
+
+
+        sidebtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+            }
+            else {
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+img {
+    width: 30%;
+    margin: calc(10%/6);
+    /*1.666 is the left and right sides of the blocks so 6 sides divided by the remaing space 10%*/
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding-top: 20px;
+    padding: 1.2em 0;
+}
+
+img:hover {
+    cursor: pointer;
+    filter: blur(2px);
+    transition: 0.5s;
+}
